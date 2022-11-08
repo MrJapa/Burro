@@ -23,14 +23,6 @@
 export default {
     props: ["name","price","discount"]
 }
-methods: {
-    onBuy()
-    {
-        this.$emit("buying",this.p)
-    }
-props:["p"]
-emits:["buying"]
-
 
 </script>
 <style lang="css">
