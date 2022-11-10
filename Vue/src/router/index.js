@@ -27,6 +27,11 @@ const router = createRouter({
       name: '/overview',
       component: () => import('../views/OverviewView.vue')
     },
+    {
+      path: '/tasks',
+      name: '/tasks',
+      component: () => import('../views/TasksView.vue')
+    }
   ]
 })
 

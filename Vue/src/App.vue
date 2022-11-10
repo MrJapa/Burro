@@ -11,7 +11,8 @@ import { RouterLink, RouterView } from 'vue-router'
         <li><a><RouterLink to="/">Home</RouterLink></a></li>
         <li><a><RouterLink to="/about">About</RouterLink></a></li>
         <li><a><RouterLink to="/products">Products</RouterLink></a></li>
-        <li><a><RouterLink to="/overview">Overview</RouterLink></a></li>
+        <li><a><RouterLink to="/Overview">Overview</RouterLink></a></li>
+        <li><a><RouterLink to="/tasks">tasks</RouterLink></a></li>
       </ul>
     </div>
   </header>
@@ -24,24 +25,6 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
-
-.grid-container{
-  align-items: center;
-  display: grid;
-  gap: 20px 50px;
-  grid-template-columns: repeat(6);
-  grid-auto-flow: column;
-  padding: 10px;
-  background-color: #30fe81;
-}
-.grid-item{
-  background-color: #30fe81; opacity: 50%;;
-  border: 2px black;
-  padding: 20px;
-  border-radius: 5px;
-  text-align: center;
-  color: #fff;
-}
 
 header
 {

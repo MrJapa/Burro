@@ -3,6 +3,9 @@
         <h1>Tasks</h1>
         <TaskList></TaskList>
         <TaskList></TaskList>
+        <TaskList></TaskList>
+        <TaskList></TaskList>
+        <TaskList></TaskList>
     </div>
 </template>
 <script>
@@ -14,6 +17,6 @@ export default {
     }
 }
 </script>
-<style lang="">
-    
+<style lang="css">
+
 </style>

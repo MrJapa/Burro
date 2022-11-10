@@ -1,6 +1,5 @@
 <template lang="">
-    <div>
-        <div class="column">
+    <div class="column">
         <div class="grid-container">
             <div class="grid-item" v-for="(item, index) in list" v-bind:key="item.Id">
                 <h1>{{item.name}}</h1>
@@ -15,7 +14,9 @@
                     </div>
                 </ul>
             </div>
-        </div>
+            <div class="new-item">
+                <h1>Test</h1>
+            </div>
         </div>
     </div>
 </template>
@@ -42,6 +43,7 @@ export default {
         box-sizing: border-box;
     }
     .column{
+        display: flex;
         float: left;
         width: 20%;
         padding: 5px;
@@ -75,6 +77,14 @@ export default {
 
     ul{
         list-style-type: none;
+    }
+
+    .new-item{
+        background-color: #bec5c2;
+        border: 1px solid black;
+        text-align: left;
+        border-radius: 15px;
+        color: black;
     }
 
     .grid-item{

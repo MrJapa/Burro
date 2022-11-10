@@ -2,10 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap);
 *
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
   padding: 2rem;
-
+  align-self: auto;
   font-weight: normal;
 }
 
